@@ -1,0 +1,38 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogItems {
+    padding: 10px;
+}
+
+.dialogsItems.active {
+color: rgb(211, 106, 106);
+}
+
+.dialog {
+    padding: 10px;
+}
+
+.massages {
+    padding: 10px
+}
+
+.massage {
+color: hsl(190, 26%, 91%)
+}
+
+.dialog a{
+    color:hsl(190, 26%, 91%);
+    text-decoration: none;
+}
+:any-link {
+    color:hsl(190, 26%, 91%);
+    text-decoration: none;
+}
+
+.active
+{
+    padding: 10px 
+}
